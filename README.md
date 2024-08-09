@@ -9,7 +9,7 @@ You can find out more about pterodactyl and how to install it on [their website]
 In order to run BeamMP on pterodactyl, you need the [BeamMP Server egg](https://github.com/pelican-eggs/games-standalone/tree/main/beamng/beammp). You can install the eggs by clicking the green `Import Egg` button in the Nests section of the admin panel. 
 
 ## Step 2 - Configuring the egg
-The egg doesn't come with LuaSQL preinstalled, so you need to add another Docker image that has LuaSQL installed on it. Luckily for you, I've already made a custom docker image that you can use for this purpose! The only thing you need to do is add `Debian with LuaSQL|ghcr.io/dieeneman16/pterodactyl-debian:luasql` to the Docker Images setting in the egg configuration. It should look like the image under this message. Don't forget to save the egg! You can find the Dockerfile in this repo if you want to build it yourself.
+The egg doesn't come with LuaSQL preinstalled, so you need to add another Docker image that has LuaSQL installed on it. Luckily for you, I've already made a custom docker image that you can use for this purpose! The only thing you need to do is add `Debian with LuaSQL|ghcr.io/dieeneman16/pterodactyl-debian:luasql` to the Docker Images setting in the egg configuration. Don't forget to save the egg! You can find the Dockerfile in this repo if you want to build it yourself.
 
 ## Step 3 - Configuring your server
 Now that you have added a docker image with LuaSQL installed, you will finally make sure your server actually uses it. You can do this by going to your server in the admin panel and changing the Docker Image Configuration under Startup to the `Debian with LuaSQL` image you just installed. Don't forget to save!
