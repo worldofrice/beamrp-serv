@@ -1,4 +1,4 @@
-# How to run BeamMP with LuaSQL (MySQL Extension!)
+# How to run BeamMP with LuaSQL 
 
 This step-by-step guide show you how to install/run LuaSQL on a BeamMP server so that connecting to a database becomes a breeze!
 
