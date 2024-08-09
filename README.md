@@ -3,7 +3,7 @@
 This step-by-step guide show you how to install/run LuaSQL on a BeamMP server so that connecting to a database becomes a breeze!
 
 **This guide is meant for servers hosted on a Pterodactyl panel!** 
-You can find out more about pterodactyl and how to install it on [their website](https://pterodactyl.io/). I recommend you to rent a VPS or dedicated server to run the panel on. You **cannot** run the panel on windows! For this guide, I assume you've already installed pterodactyl. If you don't have admin access to the pterodactyl panel, refer your server provider to this guide and ask them to install it.
+You can find out more about pterodactyl and how to install it on [their website](https://pterodactyl.io/) (or (discord)[https://discord.com/invite/pterodactyl]. I recommend you to rent a VPS or dedicated server to run the panel on. You **cannot** run the panel on windows! For this guide, I assume you've already installed pterodactyl. If you don't have admin access to the pterodactyl panel, refer your server provider to this guide and ask them to install it.
 
 ## Step 1 - importing the BeamMP egg
 In order to run BeamMP on pterodactyl, you need the [BeamMP Server egg](https://github.com/pelican-eggs/games-standalone/tree/main/beamng/beammp). You can install the eggs by clicking the green `Import Egg` button in the Nests section of the admin panel. 
