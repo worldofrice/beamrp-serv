@@ -15,4 +15,7 @@ The egg doesn't come with LuaSQL preinstalled, so you need to add another Docker
 Now that you have added a docker image with LuaSQL installed, you will finally make sure your server actually uses it. You can do this by going to your server in the admin panel and changing the Docker Image Configuration under Startup to the `Debian with LuaSQL` image you just installed. Don't forget to save!
 
 ## That's it!
-LuaSQL should now be available on your server, check out their documentation [here](https://lunarmodules.github.io/luasql/manual.html), happy scripting! For any questions DM or @ me on discord. :slight_smile:
+LuaSQL should now be available on your server, check out their documentation [here](https://lunarmodules.github.io/luasql/manual.html), happy scripting!
+
+### Note:
+I was unable to get luasql-odbc working as I came across [this issue](https://github.com/lunarmodules/luasql/issues/129). Meanwhile, I've installed (this odbc library)[https://luarocks.org/modules/moteus/odbc] which should work the same.
