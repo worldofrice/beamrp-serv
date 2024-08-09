@@ -18,4 +18,4 @@ Now that you have added a docker image with LuaSQL installed, you will finally m
 LuaSQL should now be available on your server, check out their documentation [here](https://lunarmodules.github.io/luasql/manual.html), happy scripting!
 
 ### Note:
-I was unable to get luasql-odbc working as I came across [this issue](https://github.com/lunarmodules/luasql/issues/129). Meanwhile, I've installed [this odbc library](https://luarocks.org/modules/moteus/odbc)which should work the same.
+I was unable to get luasql-odbc working as I came across [this issue](https://github.com/lunarmodules/luasql/issues/129). Meanwhile, I've installed [this odbc library](https://luarocks.org/modules/moteus/odbc) which should work the same.
