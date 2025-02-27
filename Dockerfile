@@ -1,6 +1,6 @@
 FROM ghcr.io/parkervcp/yolks:debian
 
-RUN         apt install -y lua5.3 liblua5.3-dev make postgresql-server-dev-all unixodbc unixodbc-dev
+RUN         apt install -y lua5.3 liblua5.3-dev make postgresql-server-dev-all unixodbc unixodbc-dev cmake
 
 RUN         wget https://luarocks.org/releases/luarocks-3.11.1.tar.gz \
             && tar zxpf luarocks-3.11.1.tar.gz \
