@@ -10,7 +10,7 @@ RUN         wget https://luarocks.org/releases/luarocks-3.11.1.tar.gz \
             && luarocks install luasql-mysql MYSQL_INCDIR=/usr/include/mysql \
             && luarocks install luasql-postgres PGSQL_INCDIR=/usr/include/postgresql \
             && luarocks install odbc \
-            && luarocks install lua-resty-kafka \
+            && luarocks install kafka \
             && cd .. \
             && rm luarocks-3.11.1.tar.gz
 
